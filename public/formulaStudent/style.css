@@ -1,0 +1,129 @@
+.imgCrop{
+    width:50%;
+    height:50%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e5/FSG_2010_GroupPicture_almonat.jpg');
+}
+
+#formulaImg {
+    width: 540px;
+    padding: 5% 6% 5% 8%;
+}
+
+#formulaImgDiv {
+    /* width: 58%; */
+}
+
+
+.page1{
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+}
+#page1pDiv{
+    width: 43%;
+}
+
+#page1pDiv h1{
+    padding-top: 5%;
+}
+
+#page1pDiv button {
+    font-size: 1.3em;
+    padding: 1.8% 6%;
+    border-radius: 33px;
+    border: none;
+    background-color: #13adff;
+    color: white;
+    font-weight: bold;
+}
+
+#page1pDiv button:hover{
+    background-color: #0089d3;
+
+}
+
+.page2 h2{
+    text-align: center;
+}
+.frst{
+    display: flex;
+    margin: auto;
+}
+.frst img{
+    margin: 0% 8%;
+}
+.speakers{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.scnd{
+    display: flex;
+    margin: auto;
+}
+.scnd img{
+    margin: 0% 8%;
+}
+
+.thrd{
+    display: flex;
+    margin: auto;
+}
+.thrd img{
+    margin: 0% 8%;
+}
+
+.frth{
+    display: flex;
+    margin: auto;
+}
+.frth img{
+    margin: 0% 8%;
+}
+
+.fifth{
+    display: flex;
+    margin: auto;
+}
+.fifth img{
+    margin: 0% 8%;
+}
+
+.frst, .scnd, .thrd, .frth, .fifth {
+    padding: 3% 3%;
+    margin: 3% auto;
+    background-color: khaki;
+    width: 80%;
+    border-radius: 17px;
+    flex-wrap: wrap;
+}
+#rp1p1, #rp2p1, #rp3p1, #rp4p1, #rp5p1{
+    width: 440px;
+    padding: 3% 0% ;
+    
+}
+
+.staticEventContent{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.para {
+    width: 480px;
+    padding-left: 6%;
+}
+.para+img {
+    width: 420px;
+    height: 100%;
+    margin-left: 9%;
+}
+.page3 h2{
+    text-align: center;
+    padding: 5% 0%;
+}
+#dynamicEvents{
+    text-align: center;
+}

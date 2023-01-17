@@ -1,0 +1,40 @@
+.firstPageHeading{
+    text-align: center;
+    color: white;
+    background-color: #232323;
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+.breakDownCards {
+    display: flex;
+    width: 92%;
+    margin: auto;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.card{
+    margin: 6% auto;
+}
+.downButtons{
+    display: flex;
+    flex-direction: column;
+}
+.downButtons a{
+    margin: 2% 0%;
+}
+.card-title{
+    text-align: center;
+}
+.btn{
+    background: #232323;
+    border: none;
+}
+.btn:hover{
+    background: #161616;
+}
+
+.h3Class{
+    text-align: center;
+    color: #232323;
+    font-weight: bold;
+}

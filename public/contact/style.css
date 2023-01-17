@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+.real_show{
+    display: block;
+    opacity: 0;
+    animation:  showing 0.2s ease-out 1 forwards;
+    background-color: #232323;
+}
+
+@keyframes showing {
+    0%{
+        opacity: 0;
+        padding-top: 0px;
+    }
+    10%{
+        opacity: 7;
+        padding-top: 3px;
+    }
+    100%{
+        opacity: 10;
+        padding-top: 10px;
+    }
+}
+
+.navbar{
+    /* height: 14vh; */
+    background-color: #232323;
+    font-size: 0.8em;
+    opacity: 1;
+    transition: all 0.5s ease;
+    /* background: transparent; */
+
+}
+.container-fluid {
+    /* padding-right: 3px; */
+    padding-left: 33%;
+}
+.dropdown-menu{
+    background-color: #232323;
+    color: white;
+}
+.dropdown-item{
+    color: white;
+}
+
+.nav-item {
+    /* padding-left: 3%; */
+    margin: 0 6px 0 11px;
+}
+/* .abt_us:hover, .cars:hover{
+    color: orange;
+    background-color: white;
+    color: #232323;
+} */
+.nav-item:hover{
+    background-color: white;
+    color: #232323;
+}
+
+.nav-item:hover .nav-link{
+    color: #232323;
+}
+
+.nav-link {
+    color: white;
+    width: 124px;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+nav + h1{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+    font-size: 4em;
+}
+nav+h1+h3{
+    color: white;
+    text-align: center;
+    padding-top: 13%;
+    font-size: 3em;
+}
+
+
+
+.navbar-brand img{
+    width: 30%;
+}
+
+.navbar-brand{
+    margin-left: -42%;
+    transition: all 0.2s ease-out;
+    display: flex;
+}
+
+.navbar-brand h1 {
+    font-size: 0.7em;
+    /* position: absolute; */
+    top: 63%;
+    left: 16%;
+    padding-top: 11%;
+    /* padding-right: 12px; */
+}
+
+
+
+#homeItem {
+    margin-right: 0px;
+}
+#homeLink {
+    width: 79px;
+}
+
+#abt_usItem {
+    margin: 0px 0px;
+}
+#abt_usLink{
+    width: 120px;
+}
+
+#mediaItem {
+    margin: 0px 8px;
+}
+#mediaLink{
+    width:80px;
+}
+
+#carsLink{
+    width: 80px;
+}
+#carsItem{
+    margin: 0px 0px;
+}
+
+#formula-studentItem{
+    margin-right: -13px;
+}
+#formula-studentLink{
+    width: 155px;
+}
+
+#sponsorsItem{
+    margin-right: 22px;
+}
+#sponsorsLink{
+    width:102px;
+}
+
+
+
+
+.footer{
+    color: white;
+    background-color: #111 !important;
+    border-radius: 0px;
+}
+#insideFooter1{
+    display: flex;
+    /* padding-top: 3%; */
+    flex-wrap: wrap;
+}
+
+#frontFooter1 {
+    width: 434px;
+    /* padding: 1% 7% 0% 8%; */
+    font-size: 0.8em;
+    /* text-align: center; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#insideFooter2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#insideFooter2 i{
+    padding: 0.5% 1%;
+    font-size: 1.4em;
+    color: #888;
+    transition: all 0.2s ease-out;
+}
+#insideFooter2 p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgb(243, 243, 243);
+
+}
+#map{
+    /* padding-left: 16%;
+    min-width: 90%;
+    max-width: 100%; */
+    margin: auto;
+    width: auto;
+    
+}
+
+#FrontFooter2{
+    width: 402px;
+    display: flex;
+    margin: auto;
+}
+
+#address {
+    width: 190px;
+    height: 14%;
+    padding: 15% 4%;
+}
+#feedback {
+    width: 209px;
+    height: 27%;
+    padding: 15% 4%;
+}
+#contacts{
+    /* margin: -34px 22px; */
+    width: 41%;
+    padding: 0% 4%;
+}
+
+#lnkdn:hover{
+    color: white;
+}
+#insta:hover{
+    color: white;
+}
+
+#utube:hover{
+    color: white;
+}
+
+#mail:hover{
+    color: white;
+}
+
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+nav+h1{
+    color: #232323;
+}
+.name, .email, .phone, .msg {
+    display: flex;
+    flex-direction: column;
+}

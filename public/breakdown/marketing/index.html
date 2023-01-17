@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 918px)" href="style/918px.css">
+    <!-- <link rel="stylesheet" media="screen and (max-width: 620px)" href="style/620px.css"> -->
+
+    <title>Navigation Bar</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img id="navbar-brandImg" src="img/logo.png" alt="" srcset=""> <h1 id="navbar-brandHeading">TEAM ZENITH</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item" id="homeItem">
+                <a class="nav-link active" aria-current="page" id="homeLink" href="#"><i class="fa-solid fa-house"></i> HOME</a>
+              </li>
+              
+              <li class="nav-item dropdown cars" id="carsItem">
+                <a class="nav-link dropdown-toggle" id="carsLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-car-side"></i> CARS
+                </a>
+                <ul class="dropdown-menu cars_within">
+                  <li><a class="dropdown-item" href="#">ELECTRIC CARS</a></li>
+                  <li><a class="dropdown-item" href="#">COMBUSTION CARS</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item" id="mediaItem">
+                <a class="nav-link active" aria-current="page" id="mediaLink" href="#"><i class="fa-solid fa-photo-film"></i> ALBUM</a>
+              </li>
+              
+              <li class="nav-item" id="formula_studentItem">
+                <a class="nav-link active" id="formula_studentLink" aria-current="page" href="#"><i class="fa-solid fa-flag-checkered"></i> SAE STUDENT</a>
+              </li>
+
+
+              <li class="nav-item dropdown abt_us " id="abt_usItem">
+                <a class="nav-link dropdown-toggle" id="abt_usLink" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fa-solid fa-address-card"></i> ABOUT US
+                </a>
+                <ul class="dropdown-menu abt_us_within">
+                  <li><a class="dropdown-item" href="#">TEAM</a></li>
+                  <li><a class="dropdown-item" href="#">DEPARTMENT</a></li>
+                  <li><a class="dropdown-item" href="#">TESTIMONIALS</a></li>
+                  <li><a class="dropdown-item" href="#">OUR ACHIEVEMENTS</a></li>
+                  <!-- <li><a class="dropdown-item" href="#">TIMELINE</a></li> -->
+
+                </ul>
+              </li>
+
+
+              <li class="nav-item" id="sponsorsItem">
+                <a class="nav-link active" aria-current="page" id="sponsorsLink" href="/sponsors"><i class="fa-solid fa-star"></i> SPONSORS</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      
+      <h1 class="heading">MARKETING AND FINANCE</h1>
+
+      <div class="points">
+         <ol>
+          <li>INDUSTRIAL COLLABORATIONS</li>
+          <hr>
+          <li>SPONSORS</li>
+          <hr>
+          <li>CONTACT WITH FACULTY AND STAFF</li>
+         </ol>
+      </div>
+      
+
+      <h1 class="heading">PUBLICITY</h1>
+
+      <div class="points">
+         <ol>
+          <li>SOCIAL MEDIA</li>
+          <hr>
+          <li>PROJECT CULTURE AND PRESENTATION</li>
+          <hr>
+          <li>ADMINISTRATION</li>
+         </ol>
+      </div>
+
+      <div class="card footer bg-dark">
+        <div class="card-footer ">
+          <div id="insideFooter1">
+            <div id="frontFooter1">
+              <div id="address"> 
+                <h6>Address</h6>
+                <p>G7WC+PHM, G.B. Pant Engineering Resident,  Okhla Phase I, Okhla Industrial  Estate, New Delhi,   Delhi 110020</p>
+              </div>
+              <div id="feedback">
+                <h6>Feedback</h6>
+                <p>Please send us your ideas, bug reports, suggestions! Any  feedback would be  appreciated.</p>
+
+              </div>
+              <div id="contacts">
+                <h6>Contacts</h6>
+                <p>Aditya Bhardwaj
+                  Team Captain
+                 <a href="tel: +91 81786 71507"></a> +91 81786 71507</p>
+              </div>
+            </div>
+            <div id="FrontFooter2">
+              <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.7631605863767!2d77.2714215!3d28.546837699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e5a2ab992b%3A0xe0dff05757a938b4!2sGB%20Pant%20DSEU%20Okhla%201%20Campus%20DSEU!5e0!3m2!1sen!2sin!4v1665812605104!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+          <div id="insideFooter2">
+            <div class="footerIcons">
+              <a target="_blank"  href="https://www.linkedin.com/company/team-zenith"><i class="fa-brands fa-linkedin-in" id="lnkdn"></i></a>
+              <a target="_blank"  href="https://www.instagram.com/team_zenith101/?hl=en"><i class="fa-brands fa-instagram" id="insta"></i></a>
+              <a target="_blank" href="https://youtube.com/channel/UCe5cEfpWNNsLdltQmhUQlHQ" ><i id="utube" class="fa-brands fa-youtube"></i></a>
+              <a href="mailto:teamzenith@gbpec.edu.in" ><i id="mail" class="fa-regular fa-envelope"></i></a>
+            </div>
+            <p>Feel Free to contact</p> 
+          </div>
+        </div>
+      </div>
+
+
+      <script src="https://kit.fontawesome.com/0c9ef718ac.js" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

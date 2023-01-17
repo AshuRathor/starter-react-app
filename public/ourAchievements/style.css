@@ -1,0 +1,33 @@
+
+
+.img {
+    width: 54%;
+    padding: 3% 6%;
+}
+
+#heading{   
+    text-align: center;
+     COLOR: #232323;
+    font-size: 2em;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+#paraUl {
+    padding: 42% 0% 22% 17%;
+}
+
+.para {
+    font-size: 1.6em;
+    width: 30%;
+}
+#imgJpeg {
+    padding-left: 17%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 633px;
+    height: 100%;
+}

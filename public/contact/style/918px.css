@@ -1,0 +1,78 @@
+nav+h1+h3 {
+    font-size: 1.5em;
+}
+
+
+
+#frontFooter1 {
+    width: 209px;
+    /* padding: 0% 7% 0% 15%; */
+    font-size: 0.8em;
+    /* text-align: center; */
+    margin: auto;
+}
+
+#contacts {
+    /* margin: -34px 22px; */
+    width: 209px;
+    padding: 0% 4%;
+}
+
+.abt_us {
+    width: 88%;
+}
+
+.nav-item:hover .nav-link{
+    color: none;
+}
+
+.nav-link{
+    color:none;
+    width: none;
+}
+
+.nav-item:hover{
+    background-color: none;
+    color: none;
+}
+
+.real_show{
+    display: block;
+    opacity: 0;
+    animation:  showing 0.2s ease-out 1 forwards;
+    background-color: #232323;
+}
+
+@keyframes showing {
+    0%{
+        opacity: 0;
+        padding-top: 0px;
+    }
+    10%{
+        opacity: 7;
+        padding-top: 3px;
+    }
+    100%{
+        opacity: 10;
+        padding-top: 10px;
+    }
+}
+.abt_us{
+    background-color: #232323 !important;
+}
+.abt_us .nav-link{
+    color: white !important;
+}
+
+.cars .nav-link{
+    color: white !important;
+}
+.cars{
+    background-color: #232323 !important;
+
+}
+h1+nav{
+    font-size: 1.5em;
+}
+
+

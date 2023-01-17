@@ -1,0 +1,65 @@
+#btn {
+    background-color: transparent;
+    border: 3px solid #232323;
+    margin-bottom: 40px;
+    padding: 1% 2.8%;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    margin: auto;
+}
+
+#btn:hover {
+    background-color: #232323;
+    color: white;
+   
+}
+nav+h1{
+    color: #232323;
+}
+
+#btnDiv{
+    display: flex;
+}
+
+#paraDiv{
+    text-align: center;
+    font-size: 1.5em;
+}
+#paraDiv p{
+    padding: 3% 10%;
+}
+#clgName img {
+    width: 17%;
+    height: 0%;
+    margin: 59px auto;
+}   
+#clgName{
+    flex-wrap: wrap;
+}
+#sponsorHeading{
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+#altair{
+    width: 55%;
+} 
+
+.sponsors{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.sponsors img{
+    margin:3%  auto;
+    padding: 0% 9%;
+    width: 40%;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}

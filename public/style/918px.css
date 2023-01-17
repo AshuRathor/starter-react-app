@@ -1,0 +1,59 @@
+nav+h1+h3 {
+    font-size: 1.5em;
+}
+
+#textOfPage2 h2 {
+    font-size: 2.4em;
+}
+
+.threeBoxes .col{
+    padding-bottom:43px;
+}
+
+#card1 {
+    padding-bottom: 12%;
+}
+
+#card2{
+    padding-bottom: 14%;
+
+}
+
+nav + h1 {
+    font-size: 3em;
+}
+
+#textOfPage2 button {
+    padding: 4% 9%;
+    font-size: 0.8em;
+}
+
+#homePageBtn {
+    font-size: 0.7em;
+    padding: 3% 9%;
+}
+
+#textOfPage2 img{
+    width: 90%;
+}
+
+/* #feedback{
+    padding-left: 0;
+}
+#frontFooter1{
+    text-align: center;
+    margin: auto;
+    font-size: 0.8em;
+}
+#contacts{
+    margin-left: 5%;
+    width: 49%;
+} */
+
+#frontFooter1 {
+    width: 49%;
+    padding: 1% 7% 0% 8%;
+    font-size: 0.8em;
+    /* text-align: center; */
+    margin: auto;
+}

@@ -1,0 +1,155 @@
+nav+h1+h3 {
+    font-size: 1.5em;
+}
+
+
+
+#frontFooter1 {
+    width: 209px;
+    /* padding: 0% 7% 0% 15%; */
+    font-size: 0.8em;
+    /* text-align: center; */
+    margin: auto;
+}
+
+#contacts {
+    /* margin: -34px 22px; */
+    width: 209px;
+    padding: 0% 4%;
+}
+
+.abt_us {
+    width: 88%;
+}
+
+.nav-item:hover .nav-link{
+    color: none;
+}
+
+.nav-link{
+    color:none;
+    width: none;
+}
+
+.nav-item:hover{
+    background-color: none;
+    color: none;
+}
+
+.real_show{
+    display: block;
+    opacity: 0;
+    animation:  showing 0.2s ease-out 1 forwards;
+    background-color: #232323;
+}
+
+@keyframes showing {
+    0%{
+        opacity: 0;
+        padding-top: 0px;
+    }
+    10%{
+        opacity: 7;
+        padding-top: 3px;
+    }
+    100%{
+        opacity: 10;
+        padding-top: 10px;
+    }
+}
+.abt_us{
+    background-color: #232323 !important;
+}
+.abt_us .nav-link{
+    color: white !important;
+}
+
+.cars .nav-link{
+    color: white !important;
+}
+.cars{
+    background-color: #232323 !important;
+
+}
+
+
+
+
+#rp1p1, #rp2p1, #rp3p1, #rp4p1, #rp5p1{
+    width: 100%;
+    text-align: center;
+}
+.page2 h2{
+    font-size: 1.1em;
+}
+
+#formulaImg {
+    width: 100%;
+    padding: 5% 5% 5% 5%;
+}
+
+#formulaImgDiv {
+    width: 100%;
+}
+
+#page1pDiv {
+    width: 100%;
+    text-align: center;
+    padding: 0% 6% 8%;
+}
+
+.frst, .scnd, .thrd, .frth, .fifth {
+    margin: 10% auto;
+}
+.frst img{
+    margin: 0% auto;
+    padding: 7%;
+    width: 54%;
+}
+.scnd img{
+    margin: 0% auto;
+    padding: 7%;
+    width: 54%;
+}
+.thrd img{
+    margin: 0% auto;
+    padding: 7%;
+    width: 54%;
+}
+.frth img{
+    margin: 0% auto;
+    padding: 7%;
+    width: 54%;
+}
+.fifth img{
+    margin: 0% auto;
+    padding: 7%;
+    width: 54%;
+}
+
+.rightpar1 p, h3{
+    text-align: center;
+}
+.rightpar2 p, h3{
+    text-align: center;
+}
+.rightpar3 p, h3{
+    text-align: center;
+}
+.rightpar4 p, h3{
+    text-align: center;
+}
+.rightpar5 p, h3{
+    text-align: center;
+}
+
+
+
+.para{
+    padding: 0% 12%;
+    text-align: center;
+    width: 100%;
+}
+.para+img{
+    margin:5% auto;
+}

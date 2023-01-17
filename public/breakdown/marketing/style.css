@@ -1,0 +1,19 @@
+
+.heading{
+    color: #233223;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5% 0%;
+    text-align: center;
+}
+.points{
+    text-align: center;
+    
+}
+ol li{
+    padding: 3% 0%;
+    font-weight: bold;
+}
+body{
+    color: #222;
+}
